@@ -1,4 +1,3 @@
-# FILE: /faceRecord/faceRecord/main.py
 from flask import Flask, render_template_string, request, jsonify
 import csv
 from datetime import datetime
@@ -87,4 +86,4 @@ def fetch_times():
     return jsonify({'times': times})
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5000)
